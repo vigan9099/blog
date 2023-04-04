@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>春夏秋冬</title>
+	<style>
+        *{
+			margin:0;
+			padding:0;
+			
+		}
+		body{
+			margin:0 auto;
+			width:1080px;
+		}
+		/*页头部分*/
+		.header{
+			width:1080px;
+			height:80px;
+			
+		}
+		.header .logo{
+			margin-top:30px;
+			margin-left:150px;
+			float:left;
+			width:120px;
+			height:120px;
+			
+		}
+		.logo img{
+			width:120px;
+		}
+		.header .nav{
+			float:left;
+			width:400px;
+			height:40px;
+			margin:30px 60px;
+			
+		}
+		.nav a{
+			padding:0 16px;
+			display:inline-block;
+			height:40px;
+			line-height:20px;
+			text-align:center;
+			text-decoration:none;
+			color:grey;
+		}
+		.header .search{
+			margin-top:30px;
+			float:left;
+			height:25px;
+		}
+		
+		/*banner部分*/
+		.banner{
+			width:880px;
+			height:291px;
+			padding:100px;
+			background-image:url(images/banner.jpg)
+		}
+		.bannerleft{
+			
+			width:150px;
+			height:250px;
+			padding:30px;
+			background-color:rgba(255,255,255,0.3);
+			text-align:center;
+		}
+		.bannerleft p{
+			margin-top:20px;
+			display:inline-block;
+			width:30px;
+			height:200px;
+			font-size:40px;
+			color:#fff;
+
+		}
+		.bannerleft p:nth-child(1){
+			margin-right:40px;
+		}
+		
+		/*三部分*/
+		.change{
+			margin:0 auto;
+			width:856px;
+			height:250px;
+			text-align:center;
+			padding:30px;
+			
+		}
+		.change ul{
+			list-style:none;
+		}
+		.change li{
+			margin-top:30px;
+			width:150px;
+			height:250px;
+			display:inline-block;
+			font-size:16px;
+			color:grey;
+			
+		}
+		.change img{
+			width:150px;
+			height:150px;
+			border-radius:180px;
+			border:2px solid grey;
+		}
+		.change li:nth-child(-n+3){
+			margin-right:50px;
+		}
+		
+		/*第四 图文部分*/
+		.content{
+			margin:0 auto;
+			margin-top:20px;
+			width:938px;
+			height:280px;
+			
+		}
+		.content .picture{
+			float:left;
+			width:408px;
+			height:280px;
+		}
+		.content .picture img{
+			width:200px;
+			height:280px;
+			border-radius:20px;
+		}
+		.content .picture img:nth-child(1){
+			margin-right:2px;
+		}
+		.content .text{
+			margin-left:50px;
+			float:left;
+			width:480px;
+			height:280px;
+			
+		}
+		.content .text .title{
+			margin:0 auto;
+			width:200px;
+			height:30px;
+			background-color:#e1e2e2;
+			border-radius:10px;
+			font-size:22px;
+			color:grey;
+			text-align:center;
+			line-height:30px;
+		}
+		.content .zhengwen{
+			margin-top:10px;
+			width:480px;
+			height:200px;
+		}
+		.zhengwen p{
+			text-indent:2em;
+			font-size:17px;
+			color:grey;
+			line-height:25px;
+		}
+		
+		/*页脚部分*/
+		footer{
+			margin-top:30px;
+			width:1080px;
+			height:80px;
+			background-color:#e1e2e2;
+			color:grey;
+			line-height:80px;
+			text-align:center;
+			font-size:14px;
+		}
+    </style>
+</head>
+
+<body>
+	<audio src="夏天的风.mp3" autoplay></audio>
+    <!--header部分-->
+	<div class="header">
+    	<div class="logo">
+        	<img src="images/logo.png">
+        </div>
+        <div class="nav">
+        	<a href="#">首页<br>HOME</a>
+            <a href="#">关于<br>ABOUT</a>
+            <a href="#">联系<br>CONTACT</a>
+            <a href="#">更多<br>MORE</a>
+            
+        </div>
+        <div class="search">
+        	<input type="text" placeholder="请输入想要搜索的内容">
+        </div>
+    </div>
+    
+    <!--banner部分-->
+    <div class="banner">
+    	<div class="bannerleft">
+        	<p>春<br>来<br>夏<br>往</p>
+            <p>秋<br>收<br>冬<br>藏</p>
+        </div>
+    </div>
+    
+    <!--树的四季变换-->
+    <div class="change">
+    	<ul>
+        	<li><img src="images/tree1.jpg"><br>SPRING</li>
+            <li><img src="images/tree2.jpg"><br>SUMMER</li>
+            <li><img src="images/tree3.jpg"><br>AUTUMN</li>
+            <li><img src="images/tree4.jpg"><br>WINTER</li>
+        </ul>
+    </div>
+    
+    <!--第四 图文部分-->
+    <div class="content">
+    	<div class="picture">
+            <img src="images/春.jpg">
+            <img src="images/夏.jpg">
+        </div>
+        <div class="text">
+        	<div class="title">春夏</div>
+            <div class="zhengwen">
+            	 <p>春季，是四季之一。从节气意义上讲，春季的开始是在立春，春季的结束在立夏。二十四节气是我国上古农耕文明的产物，四季划分是以“四立”作为起始。在历史发展中文化交流传播，廿四节气中反映太阳直射点回归运动的“二分二至”四个节气（春分、秋分、夏至、冬至）在先秦时期便在各地流传。</p>
+            	<p>夏季，是一年四季中第二个季节，从立夏起至立秋结束。气温高是夏季最显著的气候特征，但因地域、干湿环境的不同，会产生炎热干燥或者湿热多雨的不同气候。我国幅员辽阔，各地区夏季的气候并非一样。</p>
+            </div>
+           
+        </div>
+    
+    </div>
+    
+    <div class="content">
+    	<div class="picture">
+            <img src="images/秋.jpg">
+            <img src="images/冬.jpg">
+        </div>
+        <div class="text">
+        	<div class="title">秋冬</div>
+            <div class="zhengwen">
+            	 <p>秋季，是“春夏秋冬”四季之一。在我国，传统上是以二十四节气的“立秋”作为秋季的起点。进入秋季，意味着降雨、湿度等趋于下降或减少，在自然界中万物开始从繁茂成长趋向萧索成熟。</p>
+            	<p>冬天季节，阳退阴生，生气闭蓄，万物开始收藏。“秋收冬藏”，万物在冬季闭藏，冬季是享受丰收、休养生息的季节。</p>
+                <p>冬季在很多地区都意味着沉寂和冷清。生物在寒冷来袭的时候会减少生命活动，很多植物会落叶，动物会选择休眠，有的称作冬眠。候鸟会飞到较为温暖的地方越冬。
+</p>
+            </div>
+           
+        </div>
+    
+    </div>
+    
+    <!--页脚-->
+    <footer>
+    	版权信息Copyright@2022年春&nbsp;&nbsp;作者：刘子瑜
+    </footer>
+
+</body>
+</html>
